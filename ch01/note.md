@@ -11,15 +11,15 @@ samples
 
 functions of freq_dispersion..
 ===
-sample | description
---|--
-fdist = FreqDist(samples) | 创建分布,大到小排列
-fdist.inc(sample) | 增加样本
-fdist.freq('monstrous') | 给定样本的频率,占总量的百分比
-fdist.N() | 样本总数
-fdist.tabulate() | 频率分布表
-fdist.plot() | 频率分布图
-fdist.plot(cumulative=True) | 累计频率分布图
-
+ sample | description
+ ------|------
+ fdist = FreqDist(samples) | 创建分布,大到小排列
+ fdist.inc(sample) | 增加样本
+ fdist.freq('monstrous') | 给定样本的频率,占总量的百分比
+ fdist.N() | 样本总数
+ fdist.tabulate() | 频率分布表
+ fdist.plot() | 频率分布图
+ fdist.plot(cumulative=True) | 累计频率分布图
+ fdist1 < fdist2 | 样本在1中出现的频率是否小于2 (*未测试)
 
 
