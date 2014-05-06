@@ -2,6 +2,7 @@
 from nltk.book import *
 
 #serch word
+print '索引，观察前后词'
 text1.concordance("monstrous")
 
 print '搜索相近的词'
